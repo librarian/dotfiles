@@ -1,0 +1,13 @@
+#!/bin/bash
+whois_res=`whois -H $@`
+whois_res=${whois_res/NOT DELEGATED/\\033[01;31mNOT DELEGATED\\033[00m}
+whois_res=${whois_res/, DELEGATED/, \\033[01;32mDELEGATED\\033[00m}
+whois_res=${whois_res/Status: ok/Status: \\033[01;32mok\\033[00m}
+whois_res=${whois_res/Status:OK/Status:\\033[01;32mOK\\033[00m}
+whois_res=${whois_res/state:*Delegated/state:   \\033[01;32mDelegated\\033[00m} 
+whois_res=${whois_res/redemptionPeriod/\\033[01;31mredemptionPeriod\\033[00m}
+# nameservers
+whois_res=${whois_res//ns1.spaceweb.ru/\\033[01;33mns1.spaceweb.ru\\033[00m}
+whois_res=${whois_res//ns2.spaceweb.ru/\\033[01;33mns2.spaceweb.ru\\033[00m}
+echo -e "$whois_res"
+

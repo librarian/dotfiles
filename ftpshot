@@ -1,0 +1,7 @@
+#!/bin/bash
+name=`date +%Y%m%d-%I%M%S%N`
+file=$name.png
+scrot $file -e 'mv $f /home/lib/documents/shots/'
+url="http://i.libc6.org/media/shots/$file"
+echo "$url" | xclip -i -l 1
+scp /home/lib/documents/shots/$file www@libc6.org:/var/www/i.libc6.org/public/media/shots

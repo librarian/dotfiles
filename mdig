@@ -1,0 +1,31 @@
+#!/bin/bash
+ns1=77.222.40.2
+ns2=77.222.41.3
+#--
+case "$2" in
+"")
+ dig @$ns1 $1 axfr
+ dig @$ns2 $1 axfr
+;;
+"a" | "cname" | "mx" | "txt" )
+if [ $2 == a ]
+ then
+  var="A"
+ elif [ $2 == mx ]
+  then
+  var="MX"
+ elif [ $2 == cname ]
+  then
+  var="CNAME"
+ elif [ $2 == txt ]
+  then
+  var="TXT"
+fi
+ echo  Смотрим $var-записи по домену
+ echo NS1:; dig @$ns1 $1 $var | grep "$1" | grep "$var" | grep -v ';'
+ echo NS2:; dig @$ns1 $1 $var | grep "$1" | grep "$var" | grep -v ';'
+;;
+esac
+echo --
+exit 0
+

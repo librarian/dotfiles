@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Automatically generated file. Do not edit (see /usr/share/doc/menu/html) -->
+
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+
+<menu id='Debian' label='Debian'>
+  <menu id='CrossOver' label='CrossOver'>
+    <item label='Configuration'>
+      <action name='Execute'><execute>sh -c &quot;/home/lib/.crossover/bin/cxsetup&quot;</execute></action>
+    </item>
+    <item label='Documentation'>
+      <action name='Execute'><execute>&quot;/home/lib/.crossover/bin/launchurl&quot; &quot;file:///home/lib/.crossover/doc/en/index.html&quot;</execute></action>
+    </item>
+    <item label='Install Windows Software'>
+      <action name='Execute'><execute>sh -c &quot;/home/lib/.crossover/bin/cxinstallwizard&quot;</execute></action>
+    </item>
+    <item label='Run a Windows Command'>
+      <action name='Execute'><execute>sh -c &quot;/home/lib/.crossover/bin/cxrun&quot;</execute></action>
+    </item>
+    <item label='Terminate Windows Applications'>
+      <action name='Execute'><execute>sh -c &quot;/home/lib/.crossover/bin/cxreset&quot;</execute></action>
+    </item>
+    <item label='Uninstall'>
+      <action name='Execute'><execute>&quot;/home/lib/.crossover/bin/cxuninstall&quot;</execute></action>
+    </item>
+  </menu>
+  <menu id='CrossOver Games' label='CrossOver Games'>
+    <item label='Configuration'>
+      <action name='Execute'><execute>sh -c &quot;/home/lib/.crossover-games/bin/cxsetup&quot;</execute></action>
+    </item>
+    <item label='Documentation'>
+      <action name='Execute'><execute>&quot;/home/lib/.crossover-games/bin/launchurl&quot; &quot;file:///home/lib/.crossover-games/doc/en/index.html&quot;</execute></action>
+    </item>
+    <item label='Install Windows Software'>
+      <action name='Execute'><execute>sh -c &quot;/home/lib/.crossover-games/bin/cxinstallwizard&quot;</execute></action>
+    </item>
+    <item label='Run a Windows Command'>
+      <action name='Execute'><execute>sh -c &quot;/home/lib/.crossover-games/bin/cxrun&quot;</execute></action>
+    </item>
+    <item label='Terminate Windows Applications'>
+      <action name='Execute'><execute>sh -c &quot;/home/lib/.crossover-games/bin/cxreset&quot;</execute></action>
+    </item>
+    <item label='Uninstall'>
+      <action name='Execute'><execute>&quot;/home/lib/.crossover-games/bin/cxuninstall&quot;</execute></action>
+    </item>
+  </menu>
+  <menu id='LGP' label='LGP'>
+    <item label='LGP Uninstall'>
+      <action name='Execute'><execute>/home/lib/LGP_Uninstall/lgp_uninstall</execute></action>
+    </item>
+    <item label='LGP_Update'>
+      <action name='Execute'><execute>/home/lib/LGP_Update//lgp_update</execute></action>
+    </item>
+  </menu>
+  <menu id='Windows Applications' label='Windows Applications'>
+    <item label='Apple Software Update'>
+      <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Apple+Software+Update&quot;</execute></action>
+    </item>
+    <menu id='ASCON' label='ASCON'>
+      <menu id='KOMPAS-3D LT V8' label='KOMPAS-3D LT V8'>
+        <item label='KOMPAS-3D LT V8'>
+          <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/ASCON/KOMPAS-3D+LT+V8/KOMPAS-3D+LT+V8&quot;</execute></action>
+        </item>
+        <item label='KOMPAS-3D LT V8 Help'>
+          <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/ASCON/KOMPAS-3D+LT+V8/KOMPAS-3D+LT+V8+Help&quot;</execute></action>
+        </item>
+      </menu>
+    </menu>
+    <menu id='Microsoft Office' label='Microsoft Office'>
+      <item label='Microsoft Office Access 2003'>
+        <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/Microsoft+Office+Access+2003&quot;</execute></action>
+      </item>
+      <item label='Microsoft Office Excel 2003'>
+        <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/Microsoft+Office+Excel+2003&quot;</execute></action>
+      </item>
+      <item label='Microsoft Office InfoPath 2003'>
+        <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/Microsoft+Office+InfoPath+2003&quot;</execute></action>
+      </item>
+      <item label='Microsoft Office Outlook 2003'>
+        <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/Microsoft+Office+Outlook+2003&quot;</execute></action>
+      </item>
+      <item label='Microsoft Office PowerPoint 2003'>
+        <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/Microsoft+Office+PowerPoint+2003&quot;</execute></action>
+      </item>
+      <item label='Microsoft Office Publisher 2003'>
+        <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/Microsoft+Office+Publisher+2003&quot;</execute></action>
+      </item>
+      <item label='Microsoft Office Word 2003'>
+        <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/Microsoft+Office+Word+2003&quot;</execute></action>
+      </item>
+      <menu id='Средства Microsoft Office' label='Средства Microsoft Office'>
+        <item label='Microsoft Office Access Snapshot Viewer'>
+          <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/^D0^A1^D1^80^D0^B5^D0^B4^D1^81^D1^82^D0^B2^D0^B0+Microsoft+Office/Microsoft+Office+Access+Snapshot+Viewer&quot;</execute></action>
+        </item>
+        <item label='Microsoft Office Document Imaging'>
+          <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/^D0^A1^D1^80^D0^B5^D0^B4^D1^81^D1^82^D0^B2^D0^B0+Microsoft+Office/Microsoft+Office+Document+Imaging&quot;</execute></action>
+        </item>
+        <item label='Microsoft Office Document Scanning'>
+          <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/^D0^A1^D1^80^D0^B5^D0^B4^D1^81^D1^82^D0^B2^D0^B0+Microsoft+Office/Microsoft+Office+Document+Scanning&quot;</execute></action>
+        </item>
+        <item label='Microsoft Office Picture Manager'>
+          <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/^D0^A1^D1^80^D0^B5^D0^B4^D1^81^D1^82^D0^B2^D0^B0+Microsoft+Office/Microsoft+Office+Picture+Manager&quot;</execute></action>
+        </item>
+        <item label='Восстановление приложений Microsoft Office'>
+          <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/^D0^A1^D1^80^D0^B5^D0^B4^D1^81^D1^82^D0^B2^D0^B0+Microsoft+Office/^D0^92^D0^BE^D1^81^D1^81^D1^82^D0^B0^D0^BD^D0^BE^D0^B2^D0^BB^D0^B5^D0^BD^D0^B8^D0^B5+^D0^BF^D1^80^D0^B8^D0^BB^D0^BE^D0^B6^D0^B5^D0^BD^D0^B8^D0^B9+Microsoft+Office&quot;</execute></action>
+        </item>
+        <item label='Коллекция картинок (Microsoft)'>
+          <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/^D0^A1^D1^80^D0^B5^D0^B4^D1^81^D1^82^D0^B2^D0^B0+Microsoft+Office/^D0^9A^D0^BE^D0^BB^D0^BB^D0^B5^D0^BA^D1^86^D0^B8^D1^8F+^D0^BA^D0^B0^D1^80^D1^82^D0^B8^D0^BD^D0^BE^D0^BA+(Microsoft)&quot;</execute></action>
+        </item>
+        <item label='Мастер сохранения настроек Microsoft Office 2003'>
+          <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/^D0^A1^D1^80^D0^B5^D0^B4^D1^81^D1^82^D0^B2^D0^B0+Microsoft+Office/^D0^9C^D0^B0^D1^81^D1^82^D0^B5^D1^80+^D1^81^D0^BE^D1^85^D1^80^D0^B0^D0^BD^D0^B5^D0^BD^D0^B8^D1^8F+^D0^BD^D0^B0^D1^81^D1^82^D1^80^D0^BE^D0^B5^D0^BA+Microsoft+Office+2003&quot;</execute></action>
+        </item>
+        <item label='Цифровой сертификат для проектов VBA'>
+          <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/^D0^A1^D1^80^D0^B5^D0^B4^D1^81^D1^82^D0^B2^D0^B0+Microsoft+Office/^D0^A6^D0^B8^D1^84^D1^80^D0^BE^D0^B2^D0^BE^D0^B9+^D1^81^D0^B5^D1^80^D1^82^D0^B8^D1^84^D0^B8^D0^BA^D0^B0^D1^82+^D0^B4^D0^BB^D1^8F+^D0^BF^D1^80^D0^BE^D0^B5^D0^BA^D1^82^D0^BE^D0^B2+VBA&quot;</execute></action>
+        </item>
+        <item label='Языковые параметры Microsoft Office 2003'>
+          <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Microsoft+Office/^D0^A1^D1^80^D0^B5^D0^B4^D1^81^D1^82^D0^B2^D0^B0+Microsoft+Office/^D0^AF^D0^B7^D1^8B^D0^BA^D0^BE^D0^B2^D1^8B^D0^B5+^D0^BF^D0^B0^D1^80^D0^B0^D0^BC^D0^B5^D1^82^D1^80^D1^8B+Microsoft+Office+2003&quot;</execute></action>
+        </item>
+      </menu>
+    </menu>
+    <menu id='Safari' label='Safari'>
+      <item label='Safari'>
+        <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/Programs/Safari/Safari&quot;</execute></action>
+      </item>
+    </menu>
+    <item label='Открыть документ Office'>
+      <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/^D0^9E^D1^82^D0^BA^D1^80^D1^8B^D1^82^D1^8C+^D0^B4^D0^BE^D0^BA^D1^83^D0^BC^D0^B5^D0^BD^D1^82+Office&quot;</execute></action>
+    </item>
+    <item label='Создать документ Office'>
+      <action name='Execute'><execute>&quot;/home/lib/.cxoffice/winxp/desktopdata/cxmenu/StartMenu.C^5E3A^5Fwindows^5Fprofiles^5Fcrossover^5FStart^2BMenu/^D0^A1^D0^BE^D0^B7^D0^B4^D0^B0^D1^82^D1^8C+^D0^B4^D0^BE^D0^BA^D1^83^D0^BC^D0^B5^D0^BD^D1^82+Office&quot;</execute></action>
+    </item>
+  </menu>
+  <menu id='Игры' label='Игры'>
+    <menu id='Игрушки' label='Игрушки'>
+      <item label='Oclock'>
+        <action name='Execute'><execute>oclock</execute></action>
+      </item>
+      <item label='Xclock (analog)'>
+        <action name='Execute'><execute>xclock -analog</execute></action>
+      </item>
+      <item label='Xclock (digital)'>
+        <action name='Execute'><execute>xclock -digital -update 1</execute></action>
+      </item>
+      <item label='Xeyes'>
+        <action name='Execute'><execute>xeyes</execute></action>
+      </item>
+      <item label='Xlogo'>
+        <action name='Execute'><execute>xlogo</execute></action>
+      </item>
+    </menu>
+    <menu id='Симуляторы' label='Симуляторы'>
+      <item label='OpenTTD'>
+        <action name='Execute'><execute>/usr/share/games/openttd/openttd-wrapper</execute></action>
+      </item>
+    </menu>
+    <menu id='Стратегии' label='Стратегии'>
+      <item label='Battle for Wesnoth'>
+        <action name='Execute'><execute>/usr/games/wesnoth-nolog</execute></action>
+      </item>
+    </menu>
+    <menu id='Утилиты' label='Утилиты'>
+      <item label='Battle for Wesnoth Editor'>
+        <action name='Execute'><execute>/usr/games/wesnoth-nolog --editor</execute></action>
+      </item>
+    </menu>
+  </menu>
+  <menu id='Оконные менеджеры' label='Оконные менеджеры'>
+    <item label='Openbox'>
+      <action name='Restart'><execute>/usr/bin/openbox</execute></action>
+    </item>
+  </menu>
+  <menu id='Приложения' label='Приложения'>
+    <menu id='Видео' label='Видео'>
+      <item label='SMPlayer'>
+        <action name='Execute'><execute>smplayer</execute></action>
+      </item>
+    </menu>
+    <menu id='Графика' label='Графика'>
+      <item label='Geeqie'>
+        <action name='Execute'><execute>/usr/bin/geeqie-standard</execute></action>
+      </item>
+      <item label='Gnome-Photo-Printer'>
+        <action name='Execute'><execute>/usr/bin/gnome-photo-printer</execute></action>
+      </item>
+      <item label='ImageMagick'>
+        <action name='Execute'><execute>/usr/bin/display logo:</execute></action>
+      </item>
+      <item label='MyPaint'>
+        <action name='Execute'><execute>/usr/bin/mypaint</execute></action>
+      </item>
+      <item label='OpenOffice.org Draw'>
+        <action name='Execute'><execute>/usr/bin/oodraw</execute></action>
+      </item>
+      <item label='PhotoPrint'>
+        <action name='Execute'><execute>/usr/bin/photoprint</execute></action>
+      </item>
+      <item label='The GIMP'>
+        <action name='Execute'><execute>/usr/bin/gimp</execute></action>
+      </item>
+      <item label='Xcircuit'>
+        <action name='Execute'><execute>/usr/bin/xcircuit</execute></action>
+      </item>
+      <item label='X Window Snapshot'>
+        <action name='Execute'><execute>xwd | xwud</execute></action>
+      </item>
+    </menu>
+    <menu id='Научные' label='Научные'>
+      <menu id='Анализ данных' label='Анализ данных'>
+        <item label='QtiPlot'>
+          <action name='Execute'><execute>/usr/bin/qtiplot</execute></action>
+        </item>
+      </menu>
+      <menu id='Математика' label='Математика'>
+        <item label='Bc'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Bc&quot; -e sh -c &quot;/usr/bin/bc&quot;</execute></action>
+        </item>
+        <item label='Calc'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Calc&quot; -e sh -c &quot;/usr/bin/calc&quot;</execute></action>
+        </item>
+        <item label='Dc'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Dc&quot; -e sh -c &quot;/usr/bin/dc&quot;</execute></action>
+        </item>
+        <item label='GCalcTool'>
+          <action name='Execute'><execute>/usr/bin/gcalctool</execute></action>
+        </item>
+        <item label='OpenOffice.org Math'>
+          <action name='Execute'><execute>/usr/bin/oomath</execute></action>
+        </item>
+        <item label='Xcalc'>
+          <action name='Execute'><execute>xcalc</execute></action>
+        </item>
+      </menu>
+      <menu id='Техническая разработка' label='Техническая разработка'>
+        <item label='Dia'>
+          <action name='Execute'><execute>/usr/bin/dia-normal</execute></action>
+        </item>
+        <item label='QCad'>
+          <action name='Execute'><execute>/usr/bin/qcad</execute></action>
+        </item>
+      </menu>
+      <menu id='Электроника' label='Электроника'>
+        <item label='Arduino'>
+          <action name='Execute'><execute>arduino</execute></action>
+        </item>
+        <item label='gschem'>
+          <action name='Execute'><execute>/usr/bin/gschem</execute></action>
+        </item>
+        <item label='KICAD'>
+          <action name='Execute'><execute>/usr/bin/kicad</execute></action>
+        </item>
+        <item label='Oregano'>
+          <action name='Execute'><execute>/usr/bin/oregano</execute></action>
+        </item>
+        <item label='Xcircuit'>
+          <action name='Execute'><execute>/usr/bin/xcircuit</execute></action>
+        </item>
+      </menu>
+    </menu>
+    <menu id='Оболочки' label='Оболочки'>
+      <item label='Bash'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;Bash&quot; -e sh -c &quot;/bin/bash --login&quot;</execute></action>
+      </item>
+      <item label='Dash'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;Dash&quot; -e sh -c &quot;/bin/dash -i&quot;</execute></action>
+      </item>
+      <item label='Python (v2.5)'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;Python (v2.5)&quot; -e sh -c &quot;/usr/bin/python2.5&quot;</execute></action>
+      </item>
+      <item label='Sh'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;Sh&quot; -e sh -c &quot;/bin/sh --login&quot;</execute></action>
+      </item>
+    </menu>
+    <menu id='Обучающие' label='Обучающие'>
+      <item label='Qucs'>
+        <action name='Execute'><execute>/usr/bin/qucs</execute></action>
+      </item>
+    </menu>
+    <menu id='Офисные' label='Офисные'>
+      <item label='AbiWord Word Processor'>
+        <action name='Execute'><execute>/usr/bin/abiword</execute></action>
+      </item>
+      <item label='gnumeric'>
+        <action name='Execute'><execute>/usr/bin/gnumeric</execute></action>
+      </item>
+      <item label='OpenOffice.org Calc'>
+        <action name='Execute'><execute>/usr/bin/oocalc</execute></action>
+      </item>
+      <item label='OpenOffice.org Impress'>
+        <action name='Execute'><execute>/usr/bin/ooimpress</execute></action>
+      </item>
+      <item label='OpenOffice.org Writer'>
+        <action name='Execute'><execute>/usr/bin/oowriter</execute></action>
+      </item>
+    </menu>
+    <menu id='Программирование' label='Программирование'>
+      <item label='BeanShell (text)'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;BeanShell (text)&quot; -e sh -c &quot;/usr/bin/bsh&quot;</execute></action>
+      </item>
+      <item label='BeanShell (windowed)'>
+        <action name='Execute'><execute>/usr/bin/xbsh</execute></action>
+      </item>
+      <item label='DevHelp'>
+        <action name='Execute'><execute>/usr/bin/devhelp</execute></action>
+      </item>
+      <item label='Geany'>
+        <action name='Execute'><execute>/usr/bin/geany</execute></action>
+      </item>
+      <item label='Glade 3'>
+        <action name='Execute'><execute>/usr/bin/glade-3</execute></action>
+      </item>
+      <item label='Guile 1.6'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;Guile 1.6&quot; -e sh -c &quot;/usr/bin/guile-1.6&quot;</execute></action>
+      </item>
+      <item label='Meld'>
+        <action name='Execute'><execute>/usr/bin/meld</execute></action>
+      </item>
+      <item label='pycrust'>
+        <action name='Execute'><execute>/usr/bin/pycrust</execute></action>
+      </item>
+      <item label='pyshell'>
+        <action name='Execute'><execute>/usr/bin/pyshell</execute></action>
+      </item>
+      <item label='Python (v2.6)'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;Python (v2.6)&quot; -e sh -c &quot;/usr/bin/python2.6&quot;</execute></action>
+      </item>
+      <item label='Ruby (irb1.8)'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;Ruby (irb1.8)&quot; -e sh -c &quot;/usr/bin/irb1.8&quot;</execute></action>
+      </item>
+      <item label='Sun Java 6 Web Start'>
+        <action name='Execute'><execute>/usr/lib/jvm/java-6-sun-1.6.0.20/bin/javaws -viewer</execute></action>
+      </item>
+      <item label='Tclsh8.4'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;Tclsh8.4&quot; -e sh -c &quot;/usr/bin/tclsh8.4&quot;</execute></action>
+      </item>
+      <item label='Tclsh8.5'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;Tclsh8.5&quot; -e sh -c &quot;/usr/bin/tclsh8.5&quot;</execute></action>
+      </item>
+      <item label='TkWish8.4'>
+        <action name='Execute'><execute>x-terminal-emulator -e /usr/bin/wish8.4</execute></action>
+      </item>
+      <item label='TkWish8.5'>
+        <action name='Execute'><execute>x-terminal-emulator -e /usr/bin/wish8.5</execute></action>
+      </item>
+      <item label='visual-regexp'>
+        <action name='Execute'><execute>/usr/bin/visual-regexp</execute></action>
+      </item>
+      <item label='xrced'>
+        <action name='Execute'><execute>/usr/bin/xrced</execute></action>
+      </item>
+    </menu>
+    <menu id='Программы просмотра' label='Программы просмотра'>
+      <item label='E-book reader'>
+        <action name='Execute'><execute>FBReader</execute></action>
+      </item>
+      <item label='Evince'>
+        <action name='Execute'><execute>/usr/bin/evince</execute></action>
+      </item>
+      <item label='MPlayer'>
+        <action name='Execute'><execute>/usr/bin/gmplayer</execute></action>
+      </item>
+      <item label='Wordview'>
+        <action name='Execute'><execute>/usr/bin/wordview</execute></action>
+      </item>
+      <item label='Xditview'>
+        <action name='Execute'><execute>xditview</execute></action>
+      </item>
+      <item label='XDvi'>
+        <action name='Execute'><execute>/usr/bin/xdvi</execute></action>
+      </item>
+      <item label='Xpdf'>
+        <action name='Execute'><execute>/usr/bin/xpdf</execute></action>
+      </item>
+    </menu>
+    <menu id='Работа со звуком' label='Работа со звуком'>
+      <item label='bluemindo'>
+        <action name='Execute'><execute>/usr/bin/bluemindo</execute></action>
+      </item>
+      <item label='GNOME ALSA Mixer'>
+        <action name='Execute'><execute>/usr/bin/gnome-alsamixer</execute></action>
+      </item>
+      <item label='ncmpc'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;ncmpc&quot; -e sh -c &quot;/usr/bin/ncmpc&quot;</execute></action>
+      </item>
+      <item label='Sonata'>
+        <action name='Execute'><execute>/usr/bin/sonata</execute></action>
+      </item>
+    </menu>
+    <menu id='Редакторы' label='Редакторы'>
+      <item label='Gedit'>
+        <action name='Execute'><execute>/usr/bin/gedit</execute></action>
+      </item>
+      <item label='GVIM'>
+        <action name='Execute'><execute>/usr/bin/vim.gnome -g -f</execute></action>
+      </item>
+      <item label='hexedit'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;hexedit&quot; -e sh -c &quot;/usr/bin/hexedit&quot;</execute></action>
+      </item>
+      <item label='Nano'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;Nano&quot; -e sh -c &quot;/bin/nano&quot;</execute></action>
+      </item>
+      <item label='texmaker'>
+        <action name='Execute'><execute>/usr/bin/texmaker</execute></action>
+      </item>
+      <item label='Xedit'>
+        <action name='Execute'><execute>xedit</execute></action>
+      </item>
+    </menu>
+    <menu id='Сеть' label='Сеть'>
+      <item label='GNOME PPP'>
+        <action name='Execute'><execute>/usr/bin/gnome-ppp</execute></action>
+      </item>
+      <menu id='Веб-новости' label='Веб-новости'>
+        <item label='gPodder Podcast Client'>
+          <action name='Execute'><execute>gpodder</execute></action>
+        </item>
+      </menu>
+      <menu id='Мониторинг' label='Мониторинг'>
+        <item label='Mtr'>
+          <action name='Execute'><execute>mtr</execute></action>
+        </item>
+        <item label='WICD'>
+          <action name='Execute'><execute>/usr/bin/wicd-gtk</execute></action>
+        </item>
+      </menu>
+      <menu id='Общение' label='Общение'>
+        <item label='Ayttm'>
+          <action name='Execute'><execute>/usr/bin/ayttm</execute></action>
+        </item>
+        <item label='Minicom'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Minicom&quot; -e sh -c &quot;/usr/bin/minicom&quot;</execute></action>
+        </item>
+        <item label='Minicom (X11)'>
+          <action name='Execute'><execute>/usr/bin/xminicom</execute></action>
+        </item>
+        <item label='Mutt'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Mutt&quot; -e sh -c &quot;/usr/bin/mutt&quot;</execute></action>
+        </item>
+        <item label='Pidgin'>
+          <action name='Execute'><execute>/usr/bin/pidgin</execute></action>
+        </item>
+        <item label='Telnet'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Telnet&quot; -e sh -c &quot;/usr/bin/telnet&quot;</execute></action>
+        </item>
+        <item label='Terminal Server Client'>
+          <action name='Execute'><execute>/usr/bin/tsclient -f</execute></action>
+        </item>
+        <item label='Vinagre'>
+          <action name='Execute'><execute>vinagre</execute></action>
+        </item>
+        <item label='Xbiff'>
+          <action name='Execute'><execute>xbiff</execute></action>
+        </item>
+        <item label='xtightvncviewer'>
+          <action name='Execute'><execute>/usr/bin/xtightvncviewer</execute></action>
+        </item>
+      </menu>
+      <menu id='Пересылка файлов' label='Пересылка файлов'>
+        <item label='Deluge BitTorrent Client'>
+          <action name='Execute'><execute>/usr/bin/deluge</execute></action>
+        </item>
+        <item label='FileZilla'>
+          <action name='Execute'><execute>/usr/bin/filezilla</execute></action>
+        </item>
+        <item label='ncftp'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;ncftp&quot; -e sh -c &quot;/usr/bin/ncftp3&quot;</execute></action>
+        </item>
+      </menu>
+      <menu id='Просмотр веб' label='Просмотр веб'>
+        <item label='Chromium'>
+          <action name='Execute'><execute>chromium-browser</execute></action>
+        </item>
+        <item label='Google Chrome'>
+          <action name='Execute'><execute>/opt/google/chrome/google-chrome</execute></action>
+        </item>
+        <item label='Iceweasel'>
+          <action name='Execute'><execute>iceweasel</execute></action>
+        </item>
+        <item label='Lynx-cur'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Lynx-cur&quot; -e sh -c &quot;lynx&quot;</execute></action>
+        </item>
+        <item label='Midori'>
+          <action name='Execute'><execute>midori</execute></action>
+        </item>
+        <item label='w3m'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;w3m&quot; -e sh -c &quot;/usr/bin/w3m /usr/share/doc/w3m/MANUAL.html&quot;</execute></action>
+        </item>
+      </menu>
+    </menu>
+    <menu id='Системные' label='Системные'>
+      <item label='Openbox Menu Editor'>
+        <action name='Execute'><execute>/usr/bin/obmenu</execute></action>
+      </item>
+      <menu id='Администрирование' label='Администрирование'>
+        <item label='Aptitude (terminal)'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Aptitude (terminal)&quot; -e sh -c &quot;/usr/bin/aptitude-curses&quot;</execute></action>
+        </item>
+        <item label='Debian Task selector'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Debian Task selector&quot; -e sh -c &quot;su-to-root -c tasksel&quot;</execute></action>
+        </item>
+        <item label='Editres'>
+          <action name='Execute'><execute>editres</execute></action>
+        </item>
+        <item label='Gnome Control Center'>
+          <action name='Execute'><execute>/usr/bin/gnome-control-center</execute></action>
+        </item>
+        <item label='GNOME partition editor'>
+          <action name='Execute'><execute>su-to-root -X -c /usr/sbin/gparted</execute></action>
+        </item>
+        <item label='GTK+ 2.0 theme manager'>
+          <action name='Execute'><execute>/usr/bin/gtk-chtheme</execute></action>
+        </item>
+        <item label='Network Admin'>
+          <action name='Execute'><execute>/usr/bin/network-admin</execute></action>
+        </item>
+        <item label='Openbox Configuration Manager'>
+          <action name='Execute'><execute>/usr/bin/obconf</execute></action>
+        </item>
+        <item label='OpenJDK Java 6 Console'>
+          <action name='Execute'><execute>/usr/lib/jvm/java-6-openjdk/bin/jconsole</execute></action>
+        </item>
+        <item label='OpenJDK Java 6 Policy Tool'>
+          <action name='Execute'><execute>/usr/lib/jvm/java-6-openjdk/bin/policytool</execute></action>
+        </item>
+        <item label='Orphaner (all)'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Orphaner (all)&quot; -e sh -c &quot;su-to-root -c &apos;/usr/sbin/orphaner -a&apos;&quot;</execute></action>
+        </item>
+        <item label='Orphaner - editkeep'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Orphaner - editkeep&quot; -e sh -c &quot;su-to-root -c &apos;/usr/sbin/editkeep&apos;&quot;</execute></action>
+        </item>
+        <item label='Orphaner (libs)'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Orphaner (libs)&quot; -e sh -c &quot;su-to-root -c /usr/sbin/orphaner&quot;</execute></action>
+        </item>
+        <item label='QtConfig'>
+          <action name='Execute'><execute>/usr/bin/qtconfig-qt4</execute></action>
+        </item>
+        <item label='Reportbug'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Reportbug&quot; -e sh -c &quot;/usr/bin/reportbug --exit-prompt&quot;</execute></action>
+        </item>
+        <item label='Reportbug (GTK+)'>
+          <action name='Execute'><execute>/usr/bin/reportbug --exit-prompt --ui gtk2</execute></action>
+        </item>
+        <item label='Services Admin'>
+          <action name='Execute'><execute>/usr/bin/services-admin</execute></action>
+        </item>
+        <item label='Shares Admin'>
+          <action name='Execute'><execute>/usr/bin/shares-admin</execute></action>
+        </item>
+        <item label='Sun Java 6 Plugin Control Panel'>
+          <action name='Execute'><execute>/usr/lib/jvm/java-6-sun-1.6.0.20/bin/ControlPanel</execute></action>
+        </item>
+        <item label='System Information'>
+          <action name='Execute'><execute>/usr/bin/hardinfo</execute></action>
+        </item>
+        <item label='TeXconfig'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;TeXconfig&quot; -e sh -c &quot;/usr/bin/texconfig&quot;</execute></action>
+        </item>
+        <item label='Time Admin'>
+          <action name='Execute'><execute>/usr/bin/time-admin</execute></action>
+        </item>
+        <item label='User accounts Admin'>
+          <action name='Execute'><execute>/usr/bin/users-admin</execute></action>
+        </item>
+        <item label='XBindKeys-config'>
+          <action name='Execute'><execute>/usr/bin/xbindkeys-config</execute></action>
+        </item>
+        <item label='Xclipboard'>
+          <action name='Execute'><execute>xclipboard</execute></action>
+        </item>
+        <item label='Xfontsel'>
+          <action name='Execute'><execute>xfontsel</execute></action>
+        </item>
+        <item label='Xkill'>
+          <action name='Execute'><execute>xkill</execute></action>
+        </item>
+        <item label='Xrefresh'>
+          <action name='Execute'><execute>xrefresh</execute></action>
+        </item>
+        <item label='xxkb'>
+          <action name='Execute'><execute>/usr/bin/xxkb</execute></action>
+        </item>
+      </menu>
+      <menu id='Аппаратное обеспечение' label='Аппаратное обеспечение'>
+        <item label='gpointing-device-settings'>
+          <action name='Execute'><execute>/usr/bin/gpointing-device-settings</execute></action>
+        </item>
+        <item label='Xvidtune'>
+          <action name='Execute'><execute>xvidtune</execute></action>
+        </item>
+      </menu>
+      <menu id='Безопасность' label='Безопасность'>
+        <item label='Sun Java 6 Policy Tool'>
+          <action name='Execute'><execute>/usr/lib/jvm/java-6-sun-1.6.0.20/bin/policytool</execute></action>
+        </item>
+      </menu>
+      <menu id='Мониторинг' label='Мониторинг'>
+        <item label='htop'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;htop&quot; -e sh -c &quot;/usr/bin/htop&quot;</execute></action>
+        </item>
+        <item label='Pstree'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Pstree&quot; -e sh -c &quot;/usr/bin/pstree.x11&quot;</execute></action>
+        </item>
+        <item label='Top'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Top&quot; -e sh -c &quot;/usr/bin/top&quot;</execute></action>
+        </item>
+        <item label='Xconsole'>
+          <action name='Execute'><execute>xconsole -file /dev/xconsole</execute></action>
+        </item>
+        <item label='Xev'>
+          <action name='Execute'><execute>x-terminal-emulator -e xev</execute></action>
+        </item>
+        <item label='Xload'>
+          <action name='Execute'><execute>xload</execute></action>
+        </item>
+      </menu>
+      <menu id='Управление пакетами' label='Управление пакетами'>
+        <item label='Synaptic Package Manager'>
+          <action name='Execute'><execute>/usr/bin/su-to-root -X -c /usr/sbin/synaptic</execute></action>
+        </item>
+      </menu>
+      <menu id='Языковое окружение' label='Языковое окружение'>
+        <item label='Belarusian environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Belarusian environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l be&quot;</execute></action>
+        </item>
+        <item label='Bulgarian environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Bulgarian environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l bg&quot;</execute></action>
+        </item>
+        <item label='Catalan environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Catalan environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l ca&quot;</execute></action>
+        </item>
+        <item label='Danish environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Danish environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l da&quot;</execute></action>
+        </item>
+        <item label='French environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;French environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l fr&quot;</execute></action>
+        </item>
+        <item label='German environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;German environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l de&quot;</execute></action>
+        </item>
+        <item label='Japanese environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Japanese environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l ja&quot;</execute></action>
+        </item>
+        <item label='Korean environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Korean environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l ko&quot;</execute></action>
+        </item>
+        <item label='Lithuanian environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Lithuanian environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l lt&quot;</execute></action>
+        </item>
+        <item label='Macedonian environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Macedonian environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l mk&quot;</execute></action>
+        </item>
+        <item label='Native Language Environment'>
+          <action name='Execute'><execute>/usr/bin/tklanguage</execute></action>
+        </item>
+        <item label='Native Language Environment - remove'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Native Language Environment - remove&quot; -e sh -c &quot;/usr/bin/set-language-env -r&quot;</execute></action>
+        </item>
+        <item label='Polish environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Polish environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l pl&quot;</execute></action>
+        </item>
+        <item label='Russian environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Russian environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l ru&quot;</execute></action>
+        </item>
+        <item label='Serbian environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Serbian environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l sr&quot;</execute></action>
+        </item>
+        <item label='Spanish environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Spanish environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l es&quot;</execute></action>
+        </item>
+        <item label='Thai environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Thai environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l th&quot;</execute></action>
+        </item>
+        <item label='Turkish environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Turkish environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l tr&quot;</execute></action>
+        </item>
+        <item label='Ukrainian environment'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Ukrainian environment&quot; -e sh -c &quot;/usr/bin/set-language-env -l uk&quot;</execute></action>
+        </item>
+      </menu>
+    </menu>
+    <menu id='Специальные возможности' label='Специальные возможности'>
+      <item label='xbindkeys'>
+        <action name='Execute'><execute>/usr/bin/xbindkeys</execute></action>
+      </item>
+      <item label='Xmag'>
+        <action name='Execute'><execute>xmag</execute></action>
+      </item>
+    </menu>
+    <menu id='Управление данными' label='Управление данными'>
+      <item label='OpenOffice.org Base'>
+        <action name='Execute'><execute>/usr/bin/oobase</execute></action>
+      </item>
+    </menu>
+    <menu id='Управление файлами' label='Управление файлами'>
+      <item label='File-Roller'>
+        <action name='Execute'><execute>/usr/bin/file-roller</execute></action>
+      </item>
+      <item label='mc'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;mc&quot; -e sh -c &quot;/usr/bin/mc&quot;</execute></action>
+      </item>
+      <item label='Nautilus'>
+        <action name='Execute'><execute>/usr/bin/nautilus</execute></action>
+      </item>
+      <item label='PCManFM'>
+        <action name='Execute'><execute>/usr/bin/pcmanfm</execute></action>
+      </item>
+    </menu>
+    <menu id='Эмуляторы' label='Эмуляторы'>
+      <item label='DOSBox'>
+        <action name='Execute'><execute>/usr/bin/dosbox</execute></action>
+      </item>
+      <item label='ZSNES'>
+        <action name='Execute'><execute>/usr/bin/zsnes</execute></action>
+      </item>
+    </menu>
+    <menu id='Эмуляторы терминалов' label='Эмуляторы терминалов'>
+      <item label='Gnome Terminal'>
+        <action name='Execute'><execute>/usr/bin/gnome-terminal</execute></action>
+      </item>
+      <item label='Terminal'>
+        <action name='Execute'><execute>/usr/bin/lxterminal</execute></action>
+      </item>
+      <item label='Tilda terminal'>
+        <action name='Execute'><execute>/usr/bin/tilda</execute></action>
+      </item>
+      <item label='XTerm'>
+        <action name='Execute'><execute>xterm</execute></action>
+      </item>
+      <item label='X-Terminal as root (GKsu)'>
+        <action name='Execute'><execute>/usr/bin/gksu -u root /usr/bin/x-terminal-emulator</execute></action>
+      </item>
+      <item label='XTerm (Unicode)'>
+        <action name='Execute'><execute>uxterm</execute></action>
+      </item>
+    </menu>
+  </menu>
+  <menu id='Справка' label='Справка'>
+    <item label='Info'>
+      <action name='Execute'><execute>x-terminal-emulator  -T &quot;Info&quot; -e sh -c &quot;info&quot;</execute></action>
+    </item>
+    <item label='TeXdoctk'>
+      <action name='Execute'><execute>/usr/bin/texdoctk</execute></action>
+    </item>
+    <item label='Xman'>
+      <action name='Execute'><execute>xman</execute></action>
+    </item>
+    <item label='yelp'>
+      <action name='Execute'><execute>/usr/bin/yelp</execute></action>
+    </item>
+  </menu>
+  <menu id='Экран' label='Экран'>
+    <menu id='Блокировщики' label='Блокировщики'>
+      <item label='Lock Screen (XScreenSaver)'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -lock</execute></action>
+      </item>
+    </menu>
+    <menu id='Хранители экрана' label='Хранители экрана'>
+      <item label='Activate ScreenSaver (Next)'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -next</execute></action>
+      </item>
+      <item label='Activate ScreenSaver (Previous)'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -prev</execute></action>
+      </item>
+      <item label='Activate ScreenSaver (Random)'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -activate</execute></action>
+      </item>
+      <item label='Demo Screen Hacks'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -demo</execute></action>
+      </item>
+      <item label='Disable XScreenSaver'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -exit</execute></action>
+      </item>
+      <item label='Enable XScreenSaver'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver</execute></action>
+      </item>
+      <item label='Reinitialize XScreenSaver'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -restart</execute></action>
+      </item>
+      <item label='ScreenSaver Preferences'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -prefs</execute></action>
+      </item>
+    </menu>
+  </menu>
+</menu>
+
+</openbox_menu>

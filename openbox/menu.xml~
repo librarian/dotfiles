@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<item label="swiftfox">
+			<action name="Execute">
+				<execute>
+					swiftfox
+				</execute>
+			</action>
+		</item>
+		<item label="pcmanfm">
+			<action name="Execute">
+				<execute>
+					pcmanfm
+				</execute>
+			</action>
+		</item>
+		<!-- This requires the presence of the 'menu' package to work -->
+		<item label="filezilla">
+			<action name="Execute">
+				<execute>
+					sh -c &quot;LANG=C filezilla&quot;
+				</execute>
+			</action>
+		</item>
+		<item label="sonata">
+			<action name="Execute">
+				<execute>
+					sh -c &quot;LANG=C sonata&quot;
+				</execute>
+			</action>
+		</item>
+		<item label="pidgin">
+			<action name="Execute">
+				<execute>
+					sh -c &quot;LANG=C pidgin&quot;
+				</execute>
+			</action>
+		</item>
+		<item label="gedit">
+			<action name="Execute">
+				<execute>
+					gedit
+				</execute>
+			</action>
+		</item>
+		<menu id="root-menu-3497" label="mpd">
+			<item label="play/pause">
+				<action name="Execute">
+					<execute>
+						mpc toggle
+					</execute>
+				</action>
+			</item>
+			<item label="next">
+				<action name="Execute">
+					<execute>
+						mpc next
+					</execute>
+				</action>
+			</item>
+			<item label="prev">
+				<action name="Execute">
+					<execute>
+						mpc prev
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-292554" label="office">
+			<item label="calc">
+				<action name="Execute">
+					<execute>
+						/usr/bin/oocalc
+					</execute>
+				</action>
+			</item>
+			<item label="writer">
+				<action name="Execute">
+					<execute>
+						/usr/bin/oowriter
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-994740" label="news">
+			<menu id="pipe-weather" label="Weather" execute="python ~/.config/openbox/scripts/weather.py Saint-Peterburg,Russia" />
+		</menu>
+		<menu id="root-menu-743652" label="work">
+			<item label="tmp">
+				<action name="Execute">
+					<execute>
+						gedit /home/lib/documents/sweb/tmp
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-103019" label="system">
+			<menu id="root-menu-103019-713039" label="edit">
+				<item label="gtk-theme">
+					<action name="Execute">
+						<execute>
+							gtk-chtheme
+						</execute>
+					</action>
+				</item>
+				<item label="obmenu">
+					<action name="Execute">
+						<execute>
+							obmenu
+						</execute>
+					</action>
+				</item>
+				<item label="obconf">
+					<action name="Execute">
+						<execute>
+							obconf
+						</execute>
+					</action>
+				</item>
+				<item label="rc.xml">
+					<action name="Execute">
+						<execute>
+							gedit /home/lib/.config/openbox/rc.xml
+						</execute>
+					</action>
+				</item>
+				<item label="autostart.sh">
+					<action name="Execute">
+						<execute>
+							gedit /home/lib/.config/openbox/autostart.sh
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-103019-273038" label="box">
+				<item label="reconf">
+					<action name="Reconfigure"/>
+				</item>
+				<item label="reload">
+					<action name="Restart"/>
+				</item>
+				<item label="exit">
+					<action name="Exit"/>
+				</item>
+			</menu>
+			<menu id="root-menu-103019-33566" label="power">
+				<item label="reboot">
+					<action name="Execute">
+						<execute>
+							shutdown -r now
+						</execute>
+					</action>
+				</item>
+				<item label="halt">
+					<action name="Execute">
+						<execute>
+							shutdown -h now
+						</execute>
+					</action>
+				</item>
+			</menu>
+		</menu>
+	</menu>
+</openbox_menu>

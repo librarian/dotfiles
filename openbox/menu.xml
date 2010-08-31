@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<item label="browser">
+			<action name="Execute">
+				<execute>
+					iceweasel
+				</execute>
+			</action>
+		</item>
+		<item label="midori">
+			<action name="Execute">
+				<execute>
+					midori
+				</execute>
+			</action>
+		</item>
+		<item label="chromium">
+			<action name="Execute">
+				<execute>
+					chromium-browser --enable-ipv6
+				</execute>
+			</action>
+		</item>
+		<item label="pcmanfm">
+			<action name="Execute">
+				<execute>
+					pcmanfm
+				</execute>
+			</action>
+		</item>
+		<!-- This requires the presence of the 'menu' package to work -->
+		<item label="filezilla">
+			<action name="Execute">
+				<execute>
+					sh -c &quot;LANG=C filezilla&quot;
+				</execute>
+			</action>
+		</item>
+		<item label="deluge">
+			<action name="Execute">
+				<execute>
+					deluge
+				</execute>
+			</action>
+		</item>
+		<item label="gpodder">
+			<action name="Execute">
+				<execute>
+					gpodder
+				</execute>
+			</action>
+		</item>
+		<item label="sonata">
+			<action name="Execute">
+				<execute>
+					sh -c &quot;LANG=C sonata&quot;
+				</execute>
+			</action>
+		</item>
+		<item label="wesnoth">
+			<action name="Execute">
+				<execute>
+					wesnoth --smallgui
+				</execute>
+			</action>
+		</item>
+		<item label="pidgin">
+			<action name="Execute">
+				<execute>
+					sh -c &quot;LANG=C /usr/bin/pidgin&quot;
+				</execute>
+			</action>
+		</item>
+		<item label="dcmap">
+			<action name="Execute">
+				<execute>
+					wine /home/lib/sync/Dropbox/riv/dcmap/dcmap.exe
+				</execute>
+			</action>
+		</item>
+		<item label="gedit">
+			<action name="Execute">
+				<execute>
+					gedit
+				</execute>
+			</action>
+		</item>
+		<menu id="root-menu-47851" label="stuff">
+			<item label="tint">
+				<action name="Execute">
+					<execute>
+						tint2
+					</execute>
+				</action>
+			</item>
+			<item label="wicd">
+				<action name="Execute">
+					<execute>
+						wicd-gtk
+					</execute>
+				</action>
+			</item>
+			<item label="xterm">
+				<action name="Execute">
+					<execute>
+						xterm
+					</execute>
+				</action>
+			</item>
+			<item label="gterm">
+				<action name="Execute">
+					<execute>
+						gnome-terminal
+					</execute>
+				</action>
+			</item>
+			<item label="dropbox">
+				<action name="Execute">
+					<execute>
+						/home/lib/.dropbox-dist/dropboxd
+					</execute>
+				</action>
+			</item>
+			<item label="windows">
+				<action name="Execute">
+					<execute>
+						VBoxManage startvm xp
+					</execute>
+				</action>
+			</item>
+			<item label="smplayer">
+				<action name="Execute">
+					<execute>
+						smplayer
+					</execute>
+				</action>
+			</item>
+			<item label="gimp">
+				<action name="Execute">
+					<execute>
+						gimp
+					</execute>
+				</action>
+			</item>
+			<item label="bluetooth">
+				<action name="Execute">
+					<execute>
+						bluetooth-applet
+					</execute>
+				</action>
+			</item>
+			<item label="virtualbox">
+				<action name="Execute">
+					<execute>
+						VirtualBox
+					</execute>
+				</action>
+			</item>
+			<item label="opera">
+				<action name="Execute">
+					<execute>
+						opera
+					</execute>
+				</action>
+			</item>
+			<item label="tilda">
+				<action name="Execute">
+					<execute>
+						tilda
+					</execute>
+				</action>
+			</item>
+			<item label="fbreader">
+				<action name="Execute">
+					<execute>
+						FBReader
+					</execute>
+				</action>
+			</item>
+			<item label="skype">
+				<action name="Execute">
+					<execute>
+						skype
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-3497" label="matlab">
+			<item label="matlab">
+				<action name="Execute">
+					<execute>
+						urxvt -e /home/lib/documents/scripts/matlab/bin/matlab
+					</execute>
+				</action>
+			</item>
+			<item label="matlab nojvm">
+				<action name="Execute">
+					<execute>
+						urxvt -e /home/lib/documents/scripts/matlab/bin/matlab -nojvm
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-292554" label="office">
+			<item label="calc">
+				<action name="Execute">
+					<execute>
+						/usr/bin/oocalc
+					</execute>
+				</action>
+			</item>
+			<item label="writer">
+				<action name="Execute">
+					<execute>
+						/usr/bin/oowriter
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-743652" label="work">
+			<item label="texmaker">
+				<action name="Execute">
+					<execute>
+						texmaker
+					</execute>
+				</action>
+			</item>
+			<item label="qtiplot">
+				<action name="Execute">
+					<execute>
+						qtiplot
+					</execute>
+				</action>
+			</item>
+			<item label="komodo">
+				<action name="Execute">
+					<execute>
+						komodo
+					</execute>
+				</action>
+			</item>
+			<item label="geany">
+				<action name="Execute">
+					<execute>
+						geany
+					</execute>
+				</action>
+			</item>
+			<item label="tmp">
+				<action name="Execute">
+					<execute>
+						gedit /home/lib/sync/Dropbox/sweb/tmp
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Debian"/>
+		<menu id="root-menu-103019" label="system">
+			<item label="LOCK">
+				<action name="Execute">
+					<execute>
+						xscreensaver-command -lock
+					</execute>
+				</action>
+			</item>
+			<menu id="root-menu-103019-713039" label="edit">
+				<item label="gtk-theme">
+					<action name="Execute">
+						<execute>
+							gtk-chtheme
+						</execute>
+					</action>
+				</item>
+				<item label="obmenu">
+					<action name="Execute">
+						<execute>
+							obmenu
+						</execute>
+					</action>
+				</item>
+				<item label="obconf">
+					<action name="Execute">
+						<execute>
+							obconf
+						</execute>
+					</action>
+				</item>
+				<item label="rc.xml">
+					<action name="Execute">
+						<execute>
+							gedit /home/lib/.config/openbox/rc.xml
+						</execute>
+					</action>
+				</item>
+				<item label="autostart.sh">
+					<action name="Execute">
+						<execute>
+							gedit /home/lib/.config/openbox/autostart.sh
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-103019-273038" label="box">
+				<item label="reconf">
+					<action name="Reconfigure"/>
+				</item>
+				<item label="reload">
+					<action name="Restart"/>
+				</item>
+				<item label="exit">
+					<action name="Exit"/>
+				</item>
+			</menu>
+			<menu id="root-menu-103019-33566" label="power">
+				<item label="reboot">
+					<action name="Execute">
+						<execute>
+							shutdown -r now
+						</execute>
+					</action>
+				</item>
+				<item label="halt">
+					<action name="Execute">
+						<execute>
+							shutdown -h now
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<item label="logout">
+				<action name="Execute">
+					<execute>
+						oblogout
+					</execute>
+				</action>
+			</item>
+		</menu>
+	</menu>
+</openbox_menu>

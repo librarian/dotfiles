@@ -1,0 +1,69 @@
+#!/bin/bash
+# mail-search script
+server=support@77.222.41.36
+line=---------
+#
+if [ $1 == "--help" ]
+then
+ echo пример: mase mx my@email.ru - смотреть все логи МХ
+ echo         mase smtp my@email.ru  - смотреть лог SMTP
+ echo         если задаем 3 параметр, то смотрим старые логи, например
+ echo         mase mx my@email.ru 1 - смотрим лог всех MX в последнем архиве. 2 - в предпоследнем и т.д.
+ echo         mase list - выводит список всех файлов логов, имеющихся на данный момент.
+ echo 				mase mx my@email.ru 10 15 - смотрим лог всех MX в архивах с 10 по 15. 
+ echo 				mase smtp my@email.ru 10 15 - смотрим лог всех smtp в архивах с 10 по 15. 
+exit 0
+fi
+if [ $1 == "list" ]
+then
+ssh $server  "ls -gGt | grep common"
+exit 0
+fi
+#MX
+if [ $1 == mx ]
+ then
+  echo MX log
+case $3 in
+"" )
+  ssh $server "grep -i $2 common.log | grep -v bs5-smtp"
+;;
+*[0-9] )
+	case $4 in
+	"" )
+  echo "ищем '$2' в файле 'common.log.$3.gz' ..."; echo $line
+  ssh $server "zcat common.log.${3}.gz | grep -i $2 | grep -v bs5-smtp"
+	;;
+	*[0-9] )
+	echo "ищем '$2' в файла 'common.log.{$3,$4}.gz' ..."; echo $line
+	ssh $server "zcat common.log.{${3},${4}}.gz | grep -i $2 | grep -v bs5-smtp"
+	;;
+	esac
+;;
+esac
+#SMTP
+ elif [ $1 == smtp ]
+   then
+    echo SMTP log
+case $3 in
+"" )
+    ssh $server "grep -i $2 common.log | grep bs5-smtp"
+;;
+*[0-9] )
+		case $4 in
+		"" )
+    echo "ищем '$2' в файле 'common.log.$3.gz' ..."; echo $line
+    ssh $server "zcat common.log.$3.gz | grep -i $2 | grep bs5-smtp"
+		;;
+		*[0-9] )
+		echo "ищем '$2' в файла 'common.log.{$3,$4}.gz' ..."; echo $line
+		ssh $server "zcat common.log.{${3},${4}}.gz | grep -i $2 | grep bs5-smtp"
+		;;
+		esac
+;;
+esac
+#
+ else echo "неверные параметры! примеры: mase --help"
+fi
+echo $line; echo done
+exit 0
+
