@@ -1,1 +1,0 @@
-/home/lib/.vim/
