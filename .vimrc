@@ -2,10 +2,14 @@ set encoding=utf-8
 set termencoding=utf-8
 set t_Co=256
 "tabs
-set tabstop=2
-set shiftwidth=2
-set smarttab
+"set tabstop=4
+"set shiftwidth=4
+"set smarttab
 "set foldmethod=indent
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
 "set et "with this tabs won't be ..
 "match
 set showmatch
@@ -14,8 +18,7 @@ set incsearch
 set ignorecase
 set backspace=indent,eol,start whichwrap+=<,>,[,]
 "hilghlight tabs
-set listchars=tab:··
-set list
+set list listchars=trail:·,tab:··,precedes:<,extends:>
 "enc
 set ffs=unix,dos,mac
 set fencs=utf-8,cp1251,koi8-r,ucs-2,cp866
@@ -68,20 +71,19 @@ nmap <F3> :copen<cr>
 vmap <F3> <esc>:copen<cr>
 imap <F3> <esc>:copen<cr>
 
-" F5 - просмотр списка буферов
-nmap <F5> <Esc>:BufExplorer<cr>
-vmap <F5> <esc>:BufExplorer<cr>
-imap <F5> <esc><esc>:BufExplorer<cr>
+nmap <C-F5> <Esc>:BufExplorer<cr>
+vmap <C-F5> <esc>:BufExplorer<cr>
+imap <C-F5> <esc>:BufExplorer<cr>
 
 " F6 - предыдущий буфер
-map <F6> :bp<cr>
-vmap <F6> <esc>:bp<cr>i
-imap <F6> <esc>:bp<cr>i
+nmap <C-F6> :bp<cr>
+vmap <C-F6> <esc>:bp<cr>i
+imap <C-F6> <esc>:bp<cr>i
 
 " F7 - следующий буфер
-map <F7> :bn<cr>
-vmap <F7> <esc>:bn<cr>i
-imap <F7> <esc>:bn<cr>i
+nmap <C-F7> :bn<cr>
+vmap <C-F7> <esc>:bn<cr>i
+imap <C-F7> <esc>:bn<cr>i
 
 " F8 - список закладок
 map <F8> :MarksBrowser<cr>
@@ -107,6 +109,15 @@ imap <F11> <esc>:TlistToggle<cr>
 map <S-C-E> :Ex<cr>
 vmap <S-C-E> <esc>:Ex<cr>i
 imap <S-C-E> <esc>:Ex<cr>i
+
+nmap <C-N>v :NERDTree<cr>
+vmap <C-N>v <esc>:NERDTree<cr>i
+imap <C-N>v <esc>:NERDTree<cr>i
+
+nmap <C-N>x :NERDTreeClose<cr>
+vmap <C-N>x <esc>:NERDTreeClose<cr>i
+imap <C-N>x <esc>:NERDTreeClose<cr>i
+
 
 " < & > - делаем отступы для блоков
 vmap < <gv
@@ -177,3 +188,4 @@ set mps-=[:]
 "hi Pmenu ctermbg=Gray
 "let g:bg_tango = 1 
 colorscheme neverland-laptop
+
